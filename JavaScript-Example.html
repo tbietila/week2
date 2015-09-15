@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="JavaScript-Example.css" type="text/css"/>
+        <script> function Submit() {
+          var newHeader =
+          document.getElementById("myTextBox").value;
+          var oldHeader = document.getElementById("header");
+          oldHeader.innerHTML = "You're <b>fancy</b> too now, " + newHeader + " , for visiting this page!";
+        }
+          function changeBg() {
+            newCol = prompt("What is your favorite color?");
+            document.body.style.background=newCol;
+    }
+        </script>
+    </head>
+    <body onload= "changeBg()">
+        <h1 id="header">Welcome to this FANCY page! What's your name?</h1>
+        <div id="inputBox">
+            <input type="text" onKeyDown="Javascript: if (event.keyCode==13) Submit();" id="myTextBox" autofocus/>
+            <input type="button" value="Submit"
+            onclick="Submit();"/>
+        </div>
+
+   </body>

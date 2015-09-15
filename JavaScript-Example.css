@@ -1,0 +1,19 @@
+#header{
+        text-align: center;
+        color: teal;
+        font-size: 60px;
+}
+#inputBox{
+
+  margin-left: 40%;
+}
+
+body {
+      background-color:#FFD700;
+}
+
+input{
+          background-color: teal;
+          width: 200px;
+          height: 100%;
+}
