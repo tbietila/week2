@@ -1,0 +1,73 @@
+#home {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpOSJ2wsFaZy4QIBt5ddkeeJ5CLLBtOm1r_I-UCCwXr7iuLWPP2g);
+  /*background-repeat: no-repeat;*/
+  background-size:cover;
+  /*width:100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;*/
+
+
+
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  padding-top: 25px;
+}
+#buttons{
+  text-align: center;
+  padding-top: 200px;
+}
+#barker{
+  display:inherit;
+
+  background-image: url("http://vignette4.wikia.nocookie.net/priceisright/images/4/4b/TPIR37-40door2.gif/revision/latest?cb=20140628164446");
+  background-size: cover;
+  display: none;
+}
+
+#bob{
+    width: 500px;
+    height: auto;
+    display: none;
+    padding-top: 250px;
+    margin-left: -25px;
+
+}
+
+
+
+#spin {
+    display: none;
+}
+
+#patVanna {
+    display: none;
+    width: 500px;
+    height: auto;
+    padding-bottom: 200px;
+    margin-left: -25px;
+}
+#dick {
+    display: none;
+
+}
+
+#dick2 {
+    display: none;
+}
+#Wheel{
+  background-image: url("http://big.assets.huffingtonpost.com/spinning_the_wheel_by_leafman813-d6uhbh6.gif");
+  background-size: cover;
+  display: none;
+
+}
+#Pyramid{
+  background-image: url("http://i.ytimg.com/vi/KNNGMRs8tVM/maxresdefault.jpg");
+  background-size: cover;
+  display: none;
+}
