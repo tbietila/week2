@@ -6,11 +6,18 @@
   height: 100%;
   margin: 0px;
   padding: 0px;*/
-
-
-
+  height: 100%;
+  width: 100%;
 }
 
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+}
 
 h1 {
   text-align: center;
@@ -28,6 +35,7 @@ h1 {
   background-image: url("http://vignette4.wikia.nocookie.net/priceisright/images/4/4b/TPIR37-40door2.gif/revision/latest?cb=20140628164446");
   background-size: cover;
   display: none;
+  width: 100%;
 }
 
 #bob{
