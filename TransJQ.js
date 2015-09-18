@@ -12,8 +12,20 @@ $(document).ready(function() {
     $("div#home").hide();
     $("#Wheel").show();
     $("img#patVanna").fadeIn();
-    $("#bob").click(function() {
-      $("h2").append("Don't forget to get your pets spayed and neutered");
+    $("#patVanna").click(function() {
+      $(".wheelFormBlank").show();
+      $("#blank form").submit(function(event){
+        var blank = ["firstName", "lastName", "dob", "email", "favColor"];
+
+        blank.forEach(function(blank) {
+            var userInput = $("input#" + blank).val();
+            $("." + blank).text(userInput);
+          });
+
+          $("#confirmation").show();
+
+          event.preventDefault();
+      });
     });
   });
 
